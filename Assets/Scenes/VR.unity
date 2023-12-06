@@ -174,13 +174,49 @@ MonoBehaviour:
     width: 0.2
   m_Looped: 0
   m_Waypoints:
-  - position: {x: 0, y: 0.02092, z: 0.00161}
+  - position: {x: -0.00065631774, y: 0.0022690531, z: 0.0012153636}
     roll: 0
-  - position: {x: 0, y: 0.020464113, z: -0.00063577114}
+  - position: {x: 0.00014157772, y: 0.002143417, z: 0.0012773987}
     roll: 0
-  - position: {x: 0, y: 0.019505778, z: -0.0014682735}
+  - position: {x: 0.00015273724, y: 0.0027552, z: 0.0012817213}
     roll: 0
-  - position: {x: 0, y: 0.015569281, z: -0.0019324574}
+  - position: {x: 0.0005646471, y: 0.0030365156, z: 0.00093344686}
+    roll: 0
+  - position: {x: 0.0006246635, y: 0.003448996, z: 0.0008395354}
+    roll: 0
+  - position: {x: -0.0005009175, y: 0.0036618258, z: 0.0012928434}
+    roll: 0
+  - position: {x: -0.0010277854, y: 0.004245999, z: 0.001431024}
+    roll: 0
+  - position: {x: -0.00047512059, y: 0.004283084, z: 0.0015692046}
+    roll: 0
+  - position: {x: 0.00049658166, y: 0.003894699, z: 0.001445505}
+    roll: 0
+  - position: {x: 0.0012638333, y: 0.004140054, z: 0.0014795717}
+    roll: 0
+  - position: {x: 0.0017044058, y: 0.004564309, z: 0.0014513639}
+    roll: 0
+  - position: {x: 0.0018743783, y: 0.004291815, z: 0.0013343993}
+    roll: 0
+  - position: {x: 0.0014298452, y: 0.0038868326, z: 0.0013553923}
+    roll: 0
+  - position: {x: 0.001083054, y: 0.0035610853, z: 0.0013763852}
+    roll: 0
+  - position: {x: 0.0012311916, y: 0.0031695135, z: 0.0012649181}
+    roll: 0
+  - position: {x: 0.0015476046, y: 0.0030277206, z: 0.001092434}
+    roll: 0
+  - position: {x: 0.0018190684, y: 0.0024322965, z: 0.0010385073}
+    roll: 0
+  - position: {x: 0.0020905323, y: 0.0022647635, z: 0.00096394296}
+    roll: 0
+  - position: {x: 0.0025409267, y: 0.0026644217, z: 0.00064826955}
+    roll: 0
+  - position: {x: 0.0027582706, y: 0.0036978843, z: 0.0006741444}
+    roll: 0
+  - position: {x: 0.0025107923, y: 0.0059773386, z: 0.0009638042}
+    roll: 0
+  - position: {x: 0.00092422514, y: 0.0056825834, z: 0.0018620151}
     roll: 0
 --- !u!1 &102509793
 GameObject:
@@ -327,6 +363,73 @@ MonoBehaviour:
   - position: {x: 0, y: 0.020607894, z: 0.0041729747}
     roll: 0
   - position: {x: 0, y: 0.02092, z: 0.00161}
+    roll: 0
+--- !u!1 &409146165
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 409146166}
+  - component: {fileID: 409146167}
+  m_Layer: 0
+  m_Name: Anus
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &409146166
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 409146165}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1318560539}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &409146167
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 409146165}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a200b19ca1a9685429ed7e043c28e904, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Resolution: 20
+  m_Appearance:
+    pathColor: {r: 0, g: 1, b: 0, a: 1}
+    inactivePathColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    width: 0.2
+  m_Looped: 0
+  m_Waypoints:
+  - position: {x: 0.00092422514, y: 0.0056825834, z: 0.0018620151}
+    roll: 0
+  - position: {x: -0.0004517921, y: 0.0056825834, z: 0.0021567375}
+    roll: 0
+  - position: {x: -0.0018278093, y: 0.005974607, z: 0.00146029}
+    roll: 0
+  - position: {x: -0.0027073019, y: 0.004789492, z: 0.0005654651}
+    roll: 0
+  - position: {x: -0.0025808527, y: 0.0025595375, z: 0.000586871}
+    roll: 0
+  - position: {x: -0.0011623017, y: 0.002054564, z: 0.00045910515}
+    roll: 0
+  - position: {x: -0.00010144233, y: 0.002056477, z: 0.00050192024}
+    roll: 0
+  - position: {x: 0.000088129185, y: 0.0013391377, z: 0.00028735623}
     roll: 0
 --- !u!1 &410087039
 GameObject:
@@ -793,13 +896,107 @@ MonoBehaviour:
     width: 0.2
   m_Looped: 0
   m_Waypoints:
-  - position: {x: 0, y: 0.02092, z: 0.00161}
+  - position: {x: -0.0010634022, y: 0.007738194, z: 0.0008816872}
     roll: 0
-  - position: {x: 0, y: 0.020464113, z: -0.00063577114}
+  - position: {x: 0.0016677497, y: 0.007973046, z: 0.0008816872}
     roll: 0
-  - position: {x: 0, y: 0.019505778, z: -0.0014682735}
+  - position: {x: 0.0020146596, y: 0.006754945, z: 0.0008816872}
     roll: 0
-  - position: {x: 0, y: 0.015569281, z: -0.0019324574}
+  - position: {x: 0.0016192046, y: 0.0062783263, z: 0.0006769959}
+    roll: 0
+  - position: {x: 0.0016208616, y: 0.00574032, z: 0.000831542}
+    roll: 0
+  - position: {x: 0.0008653337, y: 0.0050572725, z: 0.0016751201}
+    roll: 0
+  - position: {x: 0.00010980584, y: 0.005051509, z: 0.0016317039}
+    roll: 0
+  - position: {x: -0.000645722, y: 0.004910847, z: 0.0015105503}
+    roll: 0
+  - position: {x: -0.0012850994, y: 0.0052265576, z: 0.0016854549}
+    roll: 0
+  - position: {x: -0.0019893115, y: 0.0047975727, z: 0.0017453056}
+    roll: 0
+  - position: {x: -0.001760732, y: 0.004050924, z: 0.0016390402}
+    roll: 0
+  - position: {x: -0.0009914886, y: 0.0039063594, z: 0.0018245804}
+    roll: 0
+  - position: {x: -0.00039711662, y: 0.003673598, z: 0.001878322}
+    roll: 0
+  - position: {x: 0.00024595583, y: 0.0037283103, z: 0.0019320636}
+    roll: 0
+  - position: {x: 0.0005991424, y: 0.003342047, z: 0.0016844186}
+    roll: 0
+  - position: {x: 0.00019509123, y: 0.0031546254, z: 0.0012516221}
+    roll: 0
+  - position: {x: -0.0011432891, y: 0.0033106394, z: 0.0011862025}
+    roll: 0
+  - position: {x: -0.0014767182, y: 0.0029571021, z: 0.0013452545}
+    roll: 0
+  - position: {x: -0.0011342163, y: 0.0026472327, z: 0.0011023402}
+    roll: 0
+  - position: {x: -0.00038091233, y: 0.002820492, z: 0.0010998835}
+    roll: 0
+  - position: {x: 0.00034864715, y: 0.0027013416, z: 0.00084951456}
+    roll: 0
+  - position: {x: 0.0011248714, y: 0.0027603086, z: 0.00083932694}
+    roll: 0
+  - position: {x: 0.0014188354, y: 0.0021923075, z: 0.0008291393}
+    roll: 0
+  - position: {x: 0.0016207851, y: 0.002340132, z: 0.0013369201}
+    roll: 0
+  - position: {x: 0.0016200005, y: 0.003274304, z: 0.001438891}
+    roll: 0
+  - position: {x: 0.001992478, y: 0.003794871, z: 0.0013213468}
+    roll: 0
+  - position: {x: 0.0021447851, y: 0.0044796527, z: 0.0012275372}
+    roll: 0
+  - position: {x: 0.0016086099, y: 0.004969382, z: 0.0013160378}
+    roll: 0
+  - position: {x: 0.0011041688, y: 0.0041238437, z: 0.0018337168}
+    roll: 0
+  - position: {x: 0.00069158693, y: 0.004119928, z: 0.0018731419}
+    roll: 0
+  - position: {x: 0.0007093546, y: 0.004773057, z: 0.0021030277}
+    roll: 0
+  - position: {x: 0.00038837292, y: 0.005094288, z: 0.0021882239}
+    roll: 0
+  - position: {x: 0.0001233206, y: 0.0049082506, z: 0.0020964842}
+    roll: 0
+  - position: {x: 0.0000642199, y: 0.0043946747, z: 0.0019521549}
+    roll: 0
+  - position: {x: -0.00020761833, y: 0.0042718123, z: 0.0018343984}
+    roll: 0
+  - position: {x: -0.0007148748, y: 0.0050328835, z: 0.002181493}
+    roll: 0
+  - position: {x: -0.0011924342, y: 0.0048753074, z: 0.001885996}
+    roll: 0
+  - position: {x: -0.0012394096, y: 0.004380614, z: 0.001823754}
+    roll: 0
+  - position: {x: -0.0014400394, y: 0.0041831443, z: 0.0016887927}
+    roll: 0
+  - position: {x: -0.001754468, y: 0.0045658066, z: 0.0015946358}
+    roll: 0
+  - position: {x: -0.0017868797, y: 0.0051192194, z: 0.0013967968}
+    roll: 0
+  - position: {x: -0.002052215, y: 0.005344538, z: 0.0012726204}
+    roll: 0
+  - position: {x: -0.002299119, y: 0.0047761616, z: 0.0011484439}
+    roll: 0
+  - position: {x: -0.001941381, y: 0.0038150463, z: 0.0011899656}
+    roll: 0
+  - position: {x: -0.0013222552, y: 0.0035567896, z: 0.0014671689}
+    roll: 0
+  - position: {x: -0.00086679694, y: 0.0032800247, z: 0.0015487601}
+    roll: 0
+  - position: {x: -0.0008950616, y: 0.0029180862, z: 0.0013589975}
+    roll: 0
+  - position: {x: -0.0014017178, y: 0.0030133869, z: 0.0009093749}
+    roll: 0
+  - position: {x: -0.0016911837, y: 0.002797936, z: 0.00096717203}
+    roll: 0
+  - position: {x: -0.0012605707, y: 0.0023974942, z: 0.0011497377}
+    roll: 0
+  - position: {x: -0.00065631774, y: 0.0022690531, z: 0.0012153636}
     roll: 0
 --- !u!114 &1046893208 stripped
 MonoBehaviour:
@@ -1166,6 +1363,7 @@ Transform:
   - {fileID: 994713645}
   - {fileID: 1009183636}
   - {fileID: 6393684}
+  - {fileID: 409146166}
   m_Father: {fileID: 839734176}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

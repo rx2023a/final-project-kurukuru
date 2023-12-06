@@ -634,6 +634,9 @@ GameObject:
   - component: {fileID: 6796898693859234476}
   - component: {fileID: 6796898694123697650}
   - component: {fileID: 6796898693859234477}
+  - component: {fileID: 6461503975587831360}
+  - component: {fileID: 583672467475670912}
+  - component: {fileID: 2199806652565927808}
   m_Layer: 6
   m_Name: Player
   m_TagString: Player
@@ -891,9 +894,51 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Path: {fileID: 0}
   m_UpdateMethod: 0
-  m_PositionUnits: 0
+  m_PositionUnits: 1
   m_Speed: 8
   m_Position: 0
+--- !u!114 &6461503975587831360
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6796898693859234483}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90279cfdaa2460643963f4b4ed81084c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startingPath: {fileID: 0}
+--- !u!65 &583672467475670912
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6796898693859234483}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.58, y: 1.38, z: 0.5}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &2199806652565927808
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6796898693859234483}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &6796898694390096703
 GameObject:
   m_ObjectHideFlags: 0

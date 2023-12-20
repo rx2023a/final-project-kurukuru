@@ -149,7 +149,7 @@ GameObject:
   - component: {fileID: 8377929238022217638}
   - component: {fileID: 2919189184877374426}
   m_Layer: 0
-  m_Name: Tongue Menu
+  m_Name: Teeth Menu
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -221,7 +221,7 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
-  m_PresetInfoIsWorld: 0
+  m_PresetInfoIsWorld: 1
 --- !u!114 &8377929238022217638
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -455,21 +455,25 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Glossitis
+  m_text: 'Karies Gigi (Karies)
+
+    Gingivitis
+
+    Periodontitis
+
+    Abses Gigi
+
+    Gigi
+    Sensitif
+
+    Gigi Goyang dan Gigi Patah
+
+    Maloklusi (Kelainan Posisi Gigi)
 
     Leukoplakia
+    dan Lichen Planus
 
-    Hairy Tongue (Lidah Berbulu)
-
-    Geographic
-    Tongue (Lidah Berpeta)
-
-    Canker Sores (Luka Mulut)
-
-    Oral Thrush (Sariawan
-    Lidah)
-
-    Syndrome Burning Mouth (Sindrom Mulut Terbakar)'
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -873,10 +877,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Lidah adalah organ otot yang terletak di dalam rongga mulut manusia dan
-    hewan vertebrata lainnya. Fungsi utama lidah adalah untuk membantu dalam proses
-    pencernaan, khususnya selama fase pengunyahan dan penelan makanan. Selain itu,
-    lidah juga memiliki peran penting dalam berbicara dan merasakan rasa.
+  m_text: Gigi adalah struktur keras yang terdapat di dalam rongga mulut manusia
+    dan hewan vertebrata lainnya. Fungsi utama gigi adalah untuk memotong, mengunyah,
+    dan menggiling makanan sebelum ditelan. Gigi juga memiliki peran penting dalam
+    berbicara dan memberikan dukungan struktural untuk wajah.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1683,7 +1687,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Lidah
+  m_text: Gigi
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

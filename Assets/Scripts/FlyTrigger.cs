@@ -20,12 +20,16 @@ public class FlyTrigger : MonoBehaviour
     void Update() {
         if (mode == null) return;
 
-        if (mode.DetectTargets(head, targets)) {
+        if (DetectTargets()) {
             Vector3 sumDir = Vector3.zero;
             foreach(Transform target in targets) {
                 sumDir += target.position - head.position;
             }
             transform.position += speed * Time.deltaTime * sumDir;
         }
+    }
+
+    public bool DetectTargets() {
+        return mode.DetectTargets(head, targets);
     }
 }
